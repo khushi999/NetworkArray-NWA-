@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="118dp"
+        android:layout_height="106dp"
+        app:srcCompat="@android:drawable/ic_menu_gallery"
+        tools:layout_editor_absoluteX="226dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="118dp"
+        android:layout_height="106dp"
+        app:srcCompat="@android:drawable/ic_menu_gallery"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="118dp"
+        android:layout_height="106dp"
+        app:srcCompat="@android:drawable/ic_menu_gallery"
+        tools:layout_editor_absoluteX="226dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="85dp"
+        android:layout_height="30dp"
+        android:fontFamily="serif"
+        android:text="Images"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="118dp"
+        android:layout_height="106dp"
+        app:srcCompat="@android:drawable/ic_menu_gallery"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_menu_add"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="527dp" />
+</android.support.constraint.ConstraintLayout>
