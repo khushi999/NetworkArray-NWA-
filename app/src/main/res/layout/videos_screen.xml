@@ -61,7 +61,7 @@
         android:layout_height="wrap_content"
         android:clickable="true"
         app:srcCompat="@android:drawable/ic_menu_add"
-        tools:layout_editor_absoluteX="177dp"
-        tools:layout_editor_absoluteY="514dp" />
+        tools:layout_editor_absoluteX="339dp"
+        tools:layout_editor_absoluteY="659dp" />
 
 </android.support.constraint.ConstraintLayout>

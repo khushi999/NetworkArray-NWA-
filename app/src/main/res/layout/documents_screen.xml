@@ -7,18 +7,18 @@
 
     <ImageButton
         android:id="@+id/imageButton19"
-        android:layout_width="100dp"
-        android:layout_height="75dp"
+        android:layout_width="98dp"
+        android:layout_height="79dp"
         app:srcCompat="@android:drawable/sym_contact_card"
         tools:layout_editor_absoluteX="90dp"
-        tools:layout_editor_absoluteY="338dp" />
+        tools:layout_editor_absoluteY="334dp" />
 
     <ImageButton
         android:id="@+id/imageButton20"
-        android:layout_width="96dp"
+        android:layout_width="98dp"
         android:layout_height="77dp"
         app:srcCompat="@android:drawable/sym_contact_card"
-        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteX="227dp"
         tools:layout_editor_absoluteY="336dp" />
 
     <ImageButton
@@ -61,6 +61,6 @@
         android:layout_height="wrap_content"
         android:clickable="true"
         app:srcCompat="@android:drawable/ic_menu_add"
-        tools:layout_editor_absoluteX="177dp"
-        tools:layout_editor_absoluteY="502dp" />
+        tools:layout_editor_absoluteX="339dp"
+        tools:layout_editor_absoluteY="659dp" />
 </android.support.constraint.ConstraintLayout>
