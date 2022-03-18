@@ -10,7 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppTest">
         <activity
-            android:name=".second_screen"
+            android:name=".settings_screen"
+            android:exported="false" />
+        <activity
+            android:name=".notes_screen"
+            android:exported="false" />
+        <activity
+            android:name=".documents_screen"
+            android:exported="false" />
+        <activity
+            android:name=".videos_screen"
+            android:exported="false" />
+        <activity
+            android:name=".images_screen"
+            android:exported="false" />
+        <activity
+            android:name=".home_screen"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

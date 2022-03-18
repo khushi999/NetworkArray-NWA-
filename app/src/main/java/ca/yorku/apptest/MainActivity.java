@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 // If statement to check whether or not the Username/Password match the following info
                 if ((username.getText().toString().equals("root")) && (password.getText().toString().equals("toor"))) {
                 // Intent is used to move from one screen to another. Requires 2 parameters(Initial Screen, Second Screen)
-                Intent second_screen = new Intent(MainActivity.this, second_screen.class);
+                Intent second_screen = new Intent(MainActivity.this, home_screen.class);
                 startActivity(second_screen);
             }else
                 // Disable the login button if the info is wrong
