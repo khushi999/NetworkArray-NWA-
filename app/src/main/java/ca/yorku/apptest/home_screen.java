@@ -26,6 +26,8 @@ public class home_screen extends AppCompatActivity {
         Button settings = (Button) findViewById(R.id.setting_button);
 
 
+
+
 // Button to access Images
 
         images.setOnClickListener(new View.OnClickListener() {
@@ -74,5 +76,10 @@ public class home_screen extends AppCompatActivity {
 
             }
         });
+    }
+
+    // Disable back button on home screen so the user is not taken back to the login screen
+    @Override
+    public void onBackPressed() {
     }
 }
