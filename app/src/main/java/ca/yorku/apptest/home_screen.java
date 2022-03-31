@@ -17,7 +17,6 @@ public class home_screen extends AppCompatActivity {
 
         Button images = (Button) findViewById(R.id.images_button);
 
-        Button videos = (Button) findViewById(R.id.videos_button);
 
         Button documents = (Button) findViewById(R.id.document_button);
 
@@ -37,15 +36,7 @@ public class home_screen extends AppCompatActivity {
                 startActivity(images_screen);
             }
         });
-// Button to access Videos
-        videos.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent videos_screen = new Intent(home_screen.this, videos_screen.class);
-                startActivity(videos_screen);
 
-            }
-        });
 // Button to access Documents
         documents.setOnClickListener(new View.OnClickListener() {
             @Override

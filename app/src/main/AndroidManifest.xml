@@ -19,9 +19,6 @@
             android:name=".documents_screen"
             android:exported="false" />
         <activity
-            android:name=".videos_screen"
-            android:exported="false" />
-        <activity
             android:name=".images_screen"
             android:exported="false" />
         <activity
