@@ -20,7 +20,7 @@ public class settings_screen extends AppCompatActivity {
         logout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent images_screen = new Intent(settings_screen.this, MainActivity.class);
+                Intent images_screen = new Intent(settings_screen.this, home_screen.class);
                 startActivity(images_screen);
             }
         });

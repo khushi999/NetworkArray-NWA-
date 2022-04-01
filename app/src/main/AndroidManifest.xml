@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppTest">
         <activity
+            android:name=".vault_screen"
+            android:exported="false" />
+        <activity
             android:name=".settings_screen"
             android:exported="false" />
         <activity
