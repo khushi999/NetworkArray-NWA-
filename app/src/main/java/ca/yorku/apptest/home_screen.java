@@ -1,6 +1,7 @@
 package ca.yorku.apptest;
 
 import android.content.Intent;
+import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -18,9 +19,8 @@ public class home_screen extends AppCompatActivity {
         Button images = (Button) findViewById(R.id.images_button);
 
 
-        Button documents = (Button) findViewById(R.id.document_button);
+        Button vault = (Button) findViewById(R.id.vault_button);
 
-        Button notes = (Button) findViewById(R.id.notes_button);
 
         Button settings = (Button) findViewById(R.id.setting_button);
 
@@ -37,26 +37,20 @@ public class home_screen extends AppCompatActivity {
             }
         });
 
-// Button to access Documents
-        documents.setOnClickListener(new View.OnClickListener() {
+// Button to access Vault
+        vault.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent documents_screen = new Intent(home_screen.this, documents_screen.class);
-                startActivity(documents_screen);
+                Intent vault_screen = new Intent(home_screen.this, vault_screen.class);
+                String way = Environment.getExternalStorageDirectory().getPath();
+                getIntent().putExtra("way",way);
+                startActivity(vault_screen);
+
 
 
             }
         });
-// Button to access Notes
-        notes.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent notes_screen = new Intent(home_screen.this, notes_screen.class);
-                startActivity(notes_screen);
 
-
-            }
-        });
 // Button to access Settings
         settings.setOnClickListener(new View.OnClickListener() {
             @Override
