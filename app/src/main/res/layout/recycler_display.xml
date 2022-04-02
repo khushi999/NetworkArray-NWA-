@@ -6,9 +6,9 @@
 
     <TextView
         android:id="@+id/file_name"
-        android:textSize="15dp"
         android:layout_width="match_parent"
         android:layout_height="36dp"
+        android:textSize="15dp"
         tools:text="Documents"
 
         />
