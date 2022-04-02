@@ -5,6 +5,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
+        android:requestLegacyExternalStorage="true"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -19,16 +20,13 @@
             android:name=".notes_screen"
             android:exported="false" />
         <activity
-            android:name=".documents_screen"
-            android:exported="false" />
-        <activity
             android:name=".images_screen"
             android:exported="false" />
         <activity
             android:name=".home_screen"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Login_screen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

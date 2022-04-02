@@ -22,16 +22,16 @@ public class vault_screen extends AppCompatActivity {
         String route = getIntent().getStringExtra("route");
 
         File source = new File(route);
-        File[] documents = source.listFiles();
+        File[] files = source.listFiles();
 
-        if(documents==null||documents.length==0){
+        if(files == null || files.length == 0){
             files_text.setVisibility(View.VISIBLE);
             return;
         }
 
         files_text.setVisibility(View.INVISIBLE);
         recycler.setLayoutManager(new LinearLayoutManager(this));
-        recycler.setAdapter(new recycle_adapter(getApplicationContext(),FnF));
+        recycler.setAdapter(new recycle_adapter(getApplicationContext(), files));
 
     }
 }

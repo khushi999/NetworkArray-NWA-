@@ -7,12 +7,12 @@
     tools:context=".vault_screen">
 
     <TextView
+        android:id="@+id/file_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:id="@+id/file_view"
-        android:visibility="invisible"
-        android:text="FILES NOT DETECTED"/>
+        android:text="FILES NOT DETECTED"
+        android:visibility="invisible" />
 
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
